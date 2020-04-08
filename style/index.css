@@ -25,10 +25,31 @@ vertical-align: baseline;
    max-width: 100%;
    border: 1px solid grey;
 }
+.links {
+    width:60%;
+    display:flex;
+    justify-content:space-around;
+}
 h1 {
-    color: red;
+    color: orange;
+    font-size: 72px;
+}
+h3{
+    text-align: center;
+
+}
+.top-right {
+    display: flex;
+    align-items: flex-start;
+}
+.flag-container {
+    height: 80vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
 }
 .sections div{
     display: flex;
     flex-direction: row;
+    justify-content:space-around;
 }
