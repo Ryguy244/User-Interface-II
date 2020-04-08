@@ -25,10 +25,13 @@ vertical-align: baseline;
    max-width: 100%;
    border: 1px solid grey;
 }
-.links {
-    width:60%;
+body {
+    margin: 5%;
+}
+.head {
     display:flex;
     justify-content:space-around;
+    display: inline;
 }
 h1 {
     color: orange;
@@ -36,11 +39,6 @@ h1 {
 }
 h3{
     text-align: center;
-
-}
-.top-right {
-    display: flex;
-    align-items: flex-start;
 }
 .flag-container {
     height: 80vh;
@@ -48,8 +46,11 @@ h3{
     justify-content:center;
     align-items:center;
 }
-.sections div{
+.sections {
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content:space-evenly;
+    width: 100;
+    align-items: center;
+    padding: 20%;
 }
