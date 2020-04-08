@@ -53,4 +53,9 @@ h3{
     width: 100%;
     align-items: center;
     flex-wrap: wrap;
+    padding: 1%;
+}
+nav.links {
+    display: flex;
+    justify-content: flex-end;
 }
