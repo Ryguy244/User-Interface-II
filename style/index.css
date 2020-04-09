@@ -23,39 +23,92 @@ vertical-align: baseline;
    padding: 0;
    margin: 0;
    max-width: 100%;
-   border: 1px solid grey;
+}
+.container {
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
 }
 body {
     margin: 3%;
+    border: 1px solid black;
+
 }
 .head {
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
+    height: 10vh;
+    width: 100%;
+    /* space between maybe? And add a width to buttons on top */
     
 }
 h1 {
     color: orange;
     font-size: 72px;
 }
+h2 {
+    font-size: 48px;
+}
 h3{
     text-align: center;
+    border: 1px solid black;
+    width: 100%;
+    margin 0 auto;
+    
 }
+.tags {
+    border: 1px solid black;
+}
+
 .flag-container {
     height: 80vh;
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     justify-content:center;
     align-items:center;
+    border: 2px solid black;
+    padding: 5%;
 }
 .sections {
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
-    width: 100%;
+    width: 70%;
     align-items: center;
     flex-wrap: wrap;
-    padding: 1%;
+    padding: 5%;
+    margin: 0 auto;
+    flex-grow: 1;
 }
 nav.links {
     display: flex;
     justify-content: flex-end;
+}
+#contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7%;
+}
+footer {
+    height: 10vh;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
