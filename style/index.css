@@ -18,7 +18,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-* {
+.container {
 	margin: 0 auto;
 }
 .head {
@@ -27,7 +27,7 @@ time, mark, audio, video {
 	justify-content: space-between;
 	align-items: center;
 	width: 90%;
-	padding: 7px;
+	padding: 7%;
 	text-align: center;
 }
 h3 {
@@ -44,7 +44,7 @@ h3 {
 	position: relative;
 	text-align:center;
 	color: white;
-	padding: 7px;
+	padding: 7%;
 }
 
 .name {
@@ -74,6 +74,7 @@ p {
 	display: flex;
 	justify-content: center;
 	padding: 3%;
+	line-height: 1.5;
 }
 .contact {
 	display: flex;
