@@ -19,12 +19,16 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 html {
-	font-size: 62.5;
-	border: 1px solid;
+	font-size: 62.5%;
+	line-height: 1.5;
+	margin: 0 auto;
+	display:flex;
+	justify-content: center;
 }
 .container {
 	width: 100%;
 	margin: 0 auto;
+	background-color: lightblue;
 }
 .head {
 	display: flex;
@@ -36,10 +40,11 @@ html {
 	text-align: center;
 }
 h3 {
-	font-size: 150%;
+	font-size: 2.4rem;
 	font-weight: bold;
 }
 .links {
+	font-size: 2rem;
 	border: 1px solid black;
 	padding:4px;
 	text-decoration: none;
@@ -53,12 +58,18 @@ h3 {
 }
 
 .name {
+	font-size: 7.2rem;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-size: 250%;
 	font-weight: bold;
+}
+.pics {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 .rowOne {
 	width: 100%;
@@ -72,15 +83,19 @@ h3 {
 	display: flex;
 	justify-content: space-evenly;
 	text-align: center;
+	box-sizing: border-box;
+}
+.labels {
+	width:30%;
 }
 p {
+	font-size: 2rem;
 	padding: 4%;
 }
 .foot {
 	display: flex;
 	justify-content: center;
 	padding: 3%;
-	line-height: 1.5;
 }
 .contact {
 	display: flex;
@@ -90,67 +105,31 @@ p {
 	display: flex;
 	flex-wrap: nowrap;
 }
-/* header {
-	display: flex;
-	flex-wrap: nowrap;
-	justify-content: space-between;
+@media(max-width: 800px){
+	.center{
+		color:red;
+	}
 }
-nav {
-	display: flex;
-	justify-content: flex-end;
+@media(max-width: 500px){
+	.head {
+		flex-direction: column;
+	}
+	.rowOne {
+		flex-direction: column;
+		align-items: center;
+	}
+	.rowTwo {
+		flex-direction: column;
+		align-items:  center;
+	}
+	p {
+		display: flex;
+		justify-content: center;
+	}
+	html {
+		border: none;
+	}
+	.head {
+		line-height: 3;
+	}
 }
-a {
-	padding: 5%;
-}
-.center {
-	position: relative;
-	text-align: center;
-	color: white;
-}
-.name {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%)
-}
-/* #name {
-	display: flex;
-	flex-wrap: nowrap;
-}
-#title {
-	display: flex;
-	flex-wrap: nowrap;
-} */
-/* .pics {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	width: 70%;
-	align-items: center;
-	flex-wrap: wrap;
-	padding: 5%;
-	margin: 0 auto;
-	flex-grow: 1;
-}
-.rowOne {
-	display: flex;
-	flex-wrap: nowrap;
-}
-.rowTwo {
-	display: flex;
-	flex-wrap: nowrap;
-}
-p {
-	display: flex;
-	justify-content: center;
-	align-items: center; 
-	padding: 7%;
-}
-img {
-	padding: 5%;
-}
-nav #contact {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-} */
