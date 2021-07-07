@@ -1,1 +1,150 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+.container {
+	margin: 0 auto;
+}
+.head {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 90%;
+	padding: 7%;
+	text-align: center;
+}
+h3 {
+	font-size: 150%;
+	font-weight: bold;
+}
+.links {
+	border: 1px solid black;
+	padding:4px;
+	text-decoration: none;
+	margin: 4px;
+}
+.center {
+	position: relative;
+	text-align:center;
+	color: white;
+	padding: 7%;
+}
+
+.name {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 250%;
+	font-weight: bold;
+}
+.rowOne {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+}
+.rowTwo {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+}
+p {
+	padding: 4%;
+}
+.foot {
+	display: flex;
+	justify-content: center;
+	padding: 3%;
+	line-height: 1.5;
+}
+.contact {
+	display: flex;
+	justify-content: center;
+}
+.media {
+	display: flex;
+	flex-wrap: nowrap;
+}
+/* header {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+nav {
+	display: flex;
+	justify-content: flex-end;
+}
+a {
+	padding: 5%;
+}
+.center {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+.name {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%)
+}
+/* #name {
+	display: flex;
+	flex-wrap: nowrap;
+}
+#title {
+	display: flex;
+	flex-wrap: nowrap;
+} */
+/* .pics {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 70%;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 5%;
+	margin: 0 auto;
+	flex-grow: 1;
+}
+.rowOne {
+	display: flex;
+	flex-wrap: nowrap;
+}
+.rowTwo {
+	display: flex;
+	flex-wrap: nowrap;
+}
+p {
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	padding: 7%;
+}
+img {
+	padding: 5%;
+}
+nav #contact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} */
